@@ -1,0 +1,60 @@
+:root {
+    --accent-1: #19ae4d;
+    --accent-2: #034a2f;
+    --accent-3: #0bb39a;
+    --card-radius: 18px;
+}
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: linear-gradient(135deg, rgba(165, 32, 192, 0.95) 0%, rgba(75, 1, 141, 0.95) 60%);
+    color: #fff;
+}
+
+nav.navbar {
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(8px);
+    transition: background 0.3s ease;
+}
+
+nav.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.navbar-brand div:first-child {
+    font-size: 1.8rem;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.cart-info {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.remove-btn {
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
