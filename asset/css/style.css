@@ -116,3 +116,41 @@
      color: var(--accent-3)
  }
 
+ .btn-ghost {
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, 0.12);
+     color: #fff;
+     border-radius: 999px;
+     padding: .45rem .9rem;
+     font-weight: 600
+ }
+
+ .floating-cart {
+     position: fixed;
+     right: 20px;
+     bottom: 24px;
+     z-index: 1050;
+     border-radius: 999px;
+     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25)
+ }
+
+footer {
+    padding: 1.5rem 0;       
+    background: rgba(0, 0, 0, 0.4); 
+    color: #f1f1f1;   
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #ffd166;  
+    text-decoration: none;
+    font-weight: 600;
+}
+footer a:hover {
+    text-decoration: underline;
+}
