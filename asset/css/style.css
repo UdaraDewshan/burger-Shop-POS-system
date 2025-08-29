@@ -11,3 +11,25 @@
      color: #fff;
      min-height: 100vh;
  }
+
+ nav.navbar {
+     background: rgba(0, 0, 0, 0.35);
+     backdrop-filter: blur(8px);
+     
+ }
+
+ nav.navbar.scrolled {
+     background: rgba(0, 0, 0, 0.85);
+ }
+
+ .navbar-brand {
+     font-weight: 700;
+     letter-spacing: 0.5px;
+     display: flex;
+     align-items: center;
+     gap: 0.6rem;
+ }
+
+ .navbar-brand div:first-child {
+     font-size: 1.8rem;
+ }
