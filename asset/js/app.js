@@ -4,17 +4,17 @@ if (typeof AOS !== 'undefined' && AOS && typeof AOS.init === 'function') {
 
 const items = [
   { id: 1, name: "Classic Burger", price: 1200, img: "asset/image/burger 1.jpg" },
-  { id: 2, name: "Cheese Burger", price: 1450, img: "asset/image/burger2.jpg" },
-  { id: 3, name: "Shawarma Burger", price: 800, img: "asset/image/burger3.jpg" },
+  { id: 2, name: "Cheese Burger", price: 1300, img: "asset/image/burger2.jpg" },
+  { id: 3, name: "Shawarma Burger", price: 1450, img: "asset/image/burger3.jpg" },
   { id: 4, name: "Pimento Cheeseburger", price: 650, img: "asset/image/burger4.jpg" },
   { id: 5, name: "Slaw Burger", price: 400, img: "asset/image/burger5.jpeg" },
   { id: 6, name: "Green Chile Cheeseburger", price: 500, img: "asset/image/burger 6.jpg" },
   { id: 7, name: "Specialty Burger", price: 500, img: "asset/image/burger7.jpg" },
-  { id: 8, name: "Turkey Burger", price: 500, img: "asset/image/berger8.jpg" },
-  { id: 9, name: "Hamburger", price: 500, img: "asset/image/burger9.jpeg" },
-  { id: 10, name: "Veggie Burger", price: 300, img: "asset/image/burger10.jpg" },
+  { id: 8, name: "Turkey Burger", price: 800, img: "asset/image/berger8.jpg" },
+  { id: 9, name: "Hamburger", price: 2000, img: "asset/image/burger9.jpeg" },
+  { id: 10, name: "Veggie Burger", price: 1200, img: "asset/image/burger10.jpg" },
   { id: 11, name: "Chicken Burger", price: 700, img: "asset/image/burger11.jpeg" },
-  { id: 12, name: "Lamb Burger", price: 600, img: "asset/image/burger12.jpeg" }
+  { id: 12, name: "Lamb Burger", price: 900, img: "asset/image/burger12.jpeg" }
 ];
 
 function getCart() {
